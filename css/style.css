@@ -1,0 +1,87 @@
+.container {
+	background-color: #e8e8e8;
+	font-family: 'Nunito', sans-serif;
+	height: auto;
+	width: 100%;
+}
+
+.header-logo {
+	padding: 10px;
+}
+
+.header-logo > span {
+	position: absolute;
+	top: 7%;
+	left: 7%;
+	font-size: 25px;
+}
+
+.header-menu {
+	position: absolute;
+	right: 3%;
+	top: 7%;
+	width: 30%;
+}
+
+.header-menu > a{
+	padding: 0 2% 0 2%;
+	font-size: 16px;
+	color: rgba(25, 25, 166, 0.86);
+}
+
+.banner-container {
+	min-height: 400px;
+	width: inherit;
+	background-image: url('../img/banner.jpeg');
+	background-size: cover;
+}
+
+.banner-overlay {
+	background-color: rgba(40, 67, 150, 0.7);
+	width: inherit;
+	min-height: inherit;
+}
+
+.banner-center {
+	position: absolute;
+	top: 25%;
+	left: 35%;
+	width: 30%;
+}
+
+.banner-center > center > h5 {
+	color: #fff;
+	font-size: 40px;
+	font-weight: 200;
+	margin-top: 3%;
+}
+
+.banner-center > center > p {
+	color: #fff;
+	font-size: 20px;
+	margin-top: -10%;
+}
+
+.button-red{
+	border: 1px solid #fff;
+	background-color: rgba(0, 118, 249, 0.66);
+	color: #fff;
+	padding: 3% 15% 3% 15%;
+	font-size: 17px;
+	border-radius: 30px;
+	text-decoration: none;
+	margin-top: 5%;
+}
+
+.section{
+	padding: 30px;
+	margin-top: 5%;
+}
+
+.section .title {
+	font-size: 35px;
+}
+
+.section .content {
+	padding: 0% 5% 0% 5%;
+}
